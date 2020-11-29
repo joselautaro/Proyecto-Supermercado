@@ -1,0 +1,45 @@
+body{
+    background-image: url('multimedia/fondo.jpg');
+    background-size: cover;
+}
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+h3{
+    text-align: center;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
+.titulo{
+    font-size: 70px;
+    text-align: center;
+    display: none;
+}
+#valorCompra{
+    background-color: rgb(154, 154, 224);
+    color: white;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+#valorVenta{
+    background-color: rgb(154, 154, 224);
+    color: white;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
